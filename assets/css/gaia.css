@@ -243,10 +243,10 @@ a:hover {
 }
 
 .separator-danger {
-  color: #e78b90;
+  color: #00225d;
 }
 .separator-danger:before, .separator-danger:after {
-  border-color: #e78b90;
+  border-color: #00225d;
 }
 
 p.description {
@@ -355,7 +355,7 @@ body > .navbar-collapse a {
 }
 
 .avatar-danger {
-  border-color: #e78b90;
+  border-color: #EDBD5B;
 }
 
 *::selection {
@@ -1099,16 +1099,16 @@ a,
   border-color: #FFFFFF;
 }
 .filter.filter-color-black:before {
-  background: #333;
+  background: #2A3342;
 }
 .filter.filter-color-gold:before {
-  background: #bd986c;
+  background: #E5A015;
 }
 .filter.filter-color-green:before {
   background: #55bea4;
 }
 .filter.filter-color-blue:before {
-  background: #008b9c;
+  background: #163C6E;
 }
 .filter.filter-color-purple:before {
   background: #50236F;
@@ -1580,7 +1580,7 @@ a,
 
 .footer-color-black,
 .footer-transparent {
-  background-color: rgba(30, 30, 30, 0.97);
+  background-color: #2A3342;
   color: #DDDDDD;
 }
 .footer-color-black nav > ul a,
@@ -3742,8 +3742,12 @@ body {
   }
 }
 
-/*
 
-slideshow
 
-.mySlides {display:none;}*/
+/*Add in fond*/
+
+@font-face {
+    font-family: Renaissance;
+    src: url(assets/fonts/renaissance/renaissance.ttf);
+    font-weight: bold;
+}
